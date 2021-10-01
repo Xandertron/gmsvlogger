@@ -1,0 +1,24 @@
+{
+  "name": "gmsvlogger",
+  "version": "1.0.0",
+  "description": "logs servers players over time to sqlite",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xandertron/gmsvlogger.git"
+  },
+  "author": "Xandertron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xandertron/gmsvlogger/issues"
+  },
+  "homepage": "https://github.com/Xandertron/gmsvlogger#readme",
+  "dependencies": {
+    "gamedig": "^3.0.7",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
